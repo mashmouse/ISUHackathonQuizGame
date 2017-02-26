@@ -7,15 +7,15 @@ using System.Linq;
 using System.Collections.Generic;
 
 public class Handler : MonoBehaviour {
-	//public String [] promptTexts;
-	//public String [] responseTexts;
+	public String [] promptTexts;
+	public String [] responseTexts;
 
 	public Image imageGo;
 
 	Button [] buttons;// I use Awake here so that the buttons are initialized through the ButtomWork scripts.
 
 	void Start () {
-		/*buttons = GetComponentsInChildren<Button> ();
+		buttons = GetComponentsInChildren<Button> ();
 		if (buttons != null && buttons.Length == promptTexts.Length && buttons.Length == responseTexts.Length) {
 			for (int i = 0; i < buttons.Length; i++) {
 				print (buttons [i].name); // This is one nasty line of OO code. 
@@ -27,7 +27,7 @@ public class Handler : MonoBehaviour {
 			}
 		}else { 
 			Debug.Log ("This is why you don't use parallel arrays");
-		}*/
+		}
 	}
 
 	public void Option1Pressed(){
