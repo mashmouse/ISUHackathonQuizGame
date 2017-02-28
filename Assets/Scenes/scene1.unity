@@ -187,17 +187,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 137873027}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98035ff79190c064492be7968fc50160, type: 3}
+  m_Script: {fileID: 11500000, guid: b30ce3a4a568fa649842adc18c61b919, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  promptTexts:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  promptTexts: []
   imageGo: {fileID: 1557283211}
 --- !u!1 &715524773
 GameObject:
@@ -226,8 +219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67222cac9a1ce0b4093d9e2ab9fec6ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctButton: 0
-  startText: 
 --- !u!4 &715524775
 Transform:
   m_ObjectHideFlags: 0
@@ -839,7 +830,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7dcdf2d5e791f8a40af38c8eece289e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 03aceac14464a544dadf4dd29f6c685e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
