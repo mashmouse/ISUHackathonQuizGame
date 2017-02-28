@@ -8,7 +8,6 @@ using System.Collections.Generic;
 
 public class Handler : MonoBehaviour {
 	public String [] promptTexts;
-	public String [] responseTexts;
 
 	public Image imageGo;
 
@@ -16,14 +15,13 @@ public class Handler : MonoBehaviour {
 
 	void Start () {
 		buttons = GetComponentsInChildren<Button> ();
-		if (buttons != null && buttons.Length == promptTexts.Length && buttons.Length == responseTexts.Length) {
+		if (buttons != null && buttons.Length == promptTexts.Length) {
 			for (int i = 0; i < buttons.Length; i++) {
 				print (buttons [i].name); // This is one nasty line of OO code. 
 				// It says fetch the ButtonWork object from the current button.
 				ButtonPressed bw = buttons [i].GetComponent<ButtonPressed> ();
 				print (bw);
-				//bw.startText = promptTexts [i];
-				//bw.outputText = responseTexts [i];
+				bw.startText = promptTexts [i];
 			}
 		}else { 
 			Debug.Log ("This is why you don't use parallel arrays");

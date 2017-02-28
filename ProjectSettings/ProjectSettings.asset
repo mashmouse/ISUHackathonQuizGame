@@ -462,6 +462,10 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 0
+    Collab: 0
+    ErrorHub: 0
+    Hub: 0
     UNet: 1
   cloudProjectId: 2a29373e-39a6-4e43-909d-53588f9de7db
   projectName: ISUHackathonQuiz (1)
