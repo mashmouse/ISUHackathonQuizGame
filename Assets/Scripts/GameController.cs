@@ -32,7 +32,7 @@ public class GameController : MonoBehaviour
 		dataController = FindObjectOfType<DataController> ();
 		if (dataController == null) {
 			print ("Couldn't find dataController");
-			return;
+			 return;
 		}
 		currentRoundData = dataController.GetCurrentRoundData ();
 		questionPool = currentRoundData.questions;
